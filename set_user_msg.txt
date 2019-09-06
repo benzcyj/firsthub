@@ -1,0 +1,13 @@
+1.配置用户名：sudo git config --system user.name Benz
+  查看配置的用户名信息：cat /etc/gitconfig
+
+2.配置邮箱：git config --global user.email chenyingjun170@163.com
+  查看配置的邮箱信息：cat ~/.gitconfig
+
+3.查看所有配置文件：git config --list
+
+4.配置git项目管理文件夹(初始化仓库)：在文件夹所在位置打开终端：git init
+  删除git管理：在文件夹下删掉隐藏文件.git
+  显示文件夹下隐藏文件：ls -a
+
+5.
